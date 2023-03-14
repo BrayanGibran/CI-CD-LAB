@@ -5,7 +5,6 @@ pipeline {
             steps {
                 echo 'Building Frontend Angular'
                 dir ('mapasApp/'){
-                    bat 'npm install'
                     bat 'npm run build'
                 }
             }

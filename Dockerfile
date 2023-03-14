@@ -1,2 +1,2 @@
 FROM nginx
-COPY Angular6BaseCli/dist /usr/share/nginx/html
+COPY 09-mapasApp/dist /usr/share/nginx/html
